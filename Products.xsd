@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : Products.xml
+    Created on : 1 November 2022
+    Author     : Aloisio Junior 
+    Year       : BSHCIFSC2
+
+ -->
+<xs:schema attributeFormDefault="unqualified" 
+    elementFormDefault="qualified" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="category" type="xs:string"/>
+    <xs:element name="description" type="xs:string"/>
+    <xs:element name="quantity" >
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="0"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="unitPrice">
+        <xs:simpleType>
+            <xs:restriction base="xs:decimal">
+                <xs:minInclusive value="0"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="product">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name"/>
+                <xs:element ref="category"/>
+                <xs:element ref="description"/>
+                <xs:element ref="quantity"/>
+                <xs:element ref="unitPrice"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Products">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="product" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

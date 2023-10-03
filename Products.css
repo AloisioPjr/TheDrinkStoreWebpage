@@ -1,0 +1,176 @@
+/*<!--
+    Document   : Products.xml
+    Created on : 1 November 2022
+    Author     : Aloisio Junior 
+    Year       : BSHCIFSC2
+
+ -->*/
+
+
+input {
+  font-size: 1rem;
+  border-radius: 60px;
+}
+
+body {
+  margin: 0;
+  background-color: #c6c6c6;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+#myInput {
+  background-image: url('/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-size: 20px ;
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  display: block;
+  color: #696969;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 60px;
+  width: 30rem;
+  border: none;
+  font-size: 1rem;
+}
+#myInput:focus{
+  outline: none;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #333;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+#content {
+  background-color: rgb(187, 187, 187);
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.topBar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 60px;
+}
+
+.topBar a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+#products th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+
+#products {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#products td,
+#products th {
+  border: 1px solid rgb(236, 235, 235);
+  padding: 8px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#products tr:hover {
+  background-color: #ec9b3e80;
+}
+
+#content-wrapper{ /*this is a CSS ID selector*/
+  background-color:honeydew; 
+  font-size: 1.2rem;/* represent 12pixel font size*/
+  max-width:900px;
+  /*css trick to center a containing div*/
+  /*the div needs a width*/
+  margin:0 auto;/*maring top and bottom of zero, left and right automatic*/
+  padding:10px;
+  
+}
+
+/* Style the header */
+header {
+background-color: #ec9b3e;
+padding: 1px;
+text-align: center;
+font-size: 3rem;
+font-family: 'Rubik Iso', cursive;
+}
+
+/* Container for flexboxes */
+.row {
+display: -webkit-flex;
+display: flex;
+justify-content: center;
+text-align: center;
+gap:10px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+background-color:#bbb;
+flex: 1;
+padding: 10px;
+
+}
+
+
+/* Style the footer */
+footer {
+background-color: #f1f1f1;
+padding: 10px;
+
+text-align: center;
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+.row {
+
+  flex-direction: column;
+}
+}
+
+
+

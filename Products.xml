@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<!--
+    Document   : Products.xml
+    Created on : 1 November 2022
+    Author     : Aloisio Junior 
+    Year       : BSHCIFSC2
+
+ -->
+<Products xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation='Products.xsd'>     
+    <product id="100-10">
+        <name>Contreau</name>
+        <category>Licour</category>
+        <description>70cl</description>
+        <quantity>240</quantity>
+        <unitPrice>21.99</unitPrice>
+    </product>
+    <product id="100-11">
+        <name>Absolut</name>
+        <category>Vodka</category>
+        <description>100cl</description>
+        <quantity>120</quantity>
+        <unitPrice>34.99</unitPrice>
+    </product>
+    <product id="100-12">
+        <name>Jameson</name>
+        <category>Whiskey</category>
+        <description>100cl</description>
+        <quantity>130</quantity>
+        <unitPrice>32.99</unitPrice>
+    </product>
+    <product id="100-13">
+        <name>Bushmills</name>
+        <category>Whiskey</category>
+        <description>70cl</description>
+        <quantity>300</quantity>
+        <unitPrice>43.99</unitPrice>
+    </product>
+    <product id="100-14">
+        <name>Jack Daniels</name>
+        <category>Whiskey</category>
+        <description>70cl</description>
+        <quantity>30</quantity>
+        <unitPrice>25.99</unitPrice>
+    </product>
+    <product id="100-15">
+        <name>Connemara</name>
+        <category>Whiskey</category>
+        <description>70cl</description>
+        <quantity>63</quantity>
+        <unitPrice>42.99</unitPrice>
+    </product>
+    <product id="100-16">
+        <name>Gray Goose </name>
+        <category>Vodka</category>            
+        <description>70cl</description>
+        <quantity>85</quantity>
+        <unitPrice>44.99</unitPrice>
+    </product>
+    <product id="100-17">
+        <name>Triple Sec</name>
+        <category>Licour</category>
+        <description>70cl</description>
+        <quantity>300</quantity>
+        <unitPrice>22.99</unitPrice>
+    </product>
+    <product id="100-18">
+        <name>Chambord</name>
+        <category>Licour</category>
+        <description>50cl</description>
+        <quantity>20</quantity>
+        <unitPrice>16.99</unitPrice>
+    </product>
+    <product id="100-19">
+        <name>Jagermeister</name>
+        <category>Licour</category>
+        <description>70cl</description>
+        <quantity>69</quantity>
+        <unitPrice>27.99</unitPrice>
+    </product>
+    <product id="100-20">
+        <name>Smirnoff</name>
+        <category>Vodka</category>
+        <description>100cl</description>
+        <quantity>351</quantity>
+        <unitPrice>26.99</unitPrice>
+    </product>
+    <product id="100-21">
+        <name>Jose Cuervo</name>
+        <category>Tequila</category>
+        <description>100cl</description>
+        <quantity>323</quantity>
+        <unitPrice>26.99</unitPrice>
+    </product>
+    <product id="100-22">
+        <name>Don Julio</name>
+        <category>Tequila</category>
+        <description>70cl</description>
+        <quantity>32</quantity>
+        <unitPrice>59.99</unitPrice>
+    </product>
+    <product id="100-23">
+        <name>Sierra</name>
+        <category>Tequila</category>
+        <description>100cl</description>
+        <quantity>236</quantity>
+        <unitPrice>25.99</unitPrice>
+    </product>
+    <product id="100-24">
+        <name>Patron</name>
+        <category>Tequila</category>
+        <description>70cl</description>
+        <quantity>65</quantity>
+        <unitPrice>69.99</unitPrice>
+    </product>
+    <product id="100-25">
+        <name>Bacardi</name>
+        <category>Rum</category>
+        <description>100cl</description>
+        <quantity>389</quantity>
+        <unitPrice>29.99</unitPrice>
+    </product>
+    <product id="100-26">
+        <name>Malibu</name>
+        <category>Rum</category>
+        <description>100cl</description>
+        <quantity>237</quantity>
+        <unitPrice>29.99</unitPrice>
+    </product>
+    <product id="100-27">
+        <name>Captain Morgan</name>
+        <category>Rum</category>
+        <description>100cl</description>
+        <quantity>245</quantity>
+        <unitPrice>32.99</unitPrice>
+    </product>
+    <product id="100-28">
+        <name>Wrey and Nephew</name>
+        <category>Rum</category>
+        <description>50cl</description>
+        <quantity>24</quantity>
+        <unitPrice>37.9</unitPrice>
+    </product>
+    <product id="100-29">
+        <name>Skyy</name>
+        <category>Vodka</category>
+        <description>70cl</description>
+        <quantity>64</quantity>
+        <unitPrice>28.99</unitPrice>
+    </product>
+    <product id="100-30">
+        <name>Dingle</name>
+        <category>Vodka</category>
+        <description>70cl</description>
+        <quantity>45</quantity>
+        <unitPrice>38.99</unitPrice>
+    </product>
+    <product id="100-31">
+        <name>Ciroc</name>
+        <category>Vodka</category>
+        <description>70cl</description>
+        <quantity>86</quantity>
+        <unitPrice>55.99</unitPrice>
+    </product>
+    <product id="100-32">
+        <name>Green Spot</name>
+        <category>Whiskey</category>
+        <description>50cl</description>
+        <quantity>37</quantity>
+        <unitPrice>39.99</unitPrice>
+    </product>
+    <product id="100-33">
+        <name>Glandalough</name>
+        <category>Whiskey</category>
+        <description>70cl</description>
+        <quantity>46</quantity>
+        <unitPrice>60.99</unitPrice>
+    </product>
+    <product id="100-34">
+        <name>Powers</name>
+        <category>Whiskey</category>
+        <description>50cl</description>
+        <quantity>68</quantity>
+        <unitPrice>19.99</unitPrice>
+    </product>
+    <product id="100-35">
+        <name>Red Breast</name>
+        <category>Whiskey</category>
+        <description>70cl</description>
+        <quantity>23</quantity>
+        <unitPrice>65.99</unitPrice>
+    </product>
+    <product id="100-36">
+        <name>Roe and Co</name>
+        <category>Whiskey</category>
+        <description>50cl</description>
+        <quantity>89</quantity>
+        <unitPrice>30.99</unitPrice>
+    </product>
+    <product id="100-37">
+        <name>Velho Barreiro</name>
+        <category>Cachaca</category>
+        <description>100cl</description>
+        <quantity>500</quantity>
+        <unitPrice>30.99</unitPrice>
+    </product>
+</Products>

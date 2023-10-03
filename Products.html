@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Document   : Products.xml
+    Created on : 1 November 2022
+    Author     : Aloisio Junior 
+    Year       : BSHCIFSC2
+
+ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Products.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <h1>The DrinkStore Dublin</h1>
+       </header>
+    <div class="topBar">
+        <a href="Home.html">Home</a>
+        <a href="Products.html">Products</a>
+
+        <div class="search-wrapper">
+            <form>
+                <label id="search-lable" for="search"></label>
+                <input type="search" id="myInput" placeholder="Product Search.." name="search" onkeyup="searchFun()" data-search></input>
+                <!--<button type="button" onclick="buttonValueExtract">Go</button>-->
+            </form>
+        </div>
+    </div>
+
+    <div class="product-card">
+        <div class="name"></div>
+        <div class="category"></div>
+        <div class="description"></div>
+        <div class="quantity"></div>
+        <div class="unitPrice"></div>
+    </div>
+    <div>
+        <div id='content'>
+            <table id='products'>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Description</th>
+                        <th>Quantity</th>
+                        <th>Unit Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="Products.js"></script>
+</body>
+
+</html>

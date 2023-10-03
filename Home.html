@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Document   : Products.xml
+    Created on : 1 November 2022
+    Author     : Aloisio Junior 
+    Year       : BSHCIFSC2
+
+ -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Products.css">
+  <script src="Products.js"></script>
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header>
+
+    <h1>The DrinkStore Dublin</h1>
+   </header>
+  <body>
+
+    <div class="topBar">
+      <a href="Home.html">Home</a>
+      <a href="Products.html">Products</a>
+    </div>
+    <div><img src="cocktails3.jpg" width="100%"/></div>
+
+    <div class="contact-container">
+      <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Visit our store on the  address below , or leave us a message:</p>
+      </div>
+      <div class="row">
+        
+       
+        <div class="column column50"> 
+        <form name="contactForm" id="contactForm" method="post" action="contactServlet" onsubmit="return checkForm()">
+        <label for="fname">Name <span class="red">*</span></label>
+        <input type="text" id="fname" name="firstName" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastName" placeholder="Your last name">
+        
+        
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email address..">
+        
+        
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+        <input type="submit" value="Submit">
+        </form>
+        </div>
+        
+         <div class="column column50"> <!--1st column -->
+        
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2386.0244541796055!2d-6.3342760836515914!3d53.27118148803887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670b1f2a8dd6f1%3A0xb41a56680f8b0500!2s27%20Hunters%20Walk%2C%20Hunters%20Wood%2C%20Dublin%2024%2C%20D24%20XK52!5e0!3m2!1sen!2sie!4v1612280854794!5m2!1sen!2sie"  style="border:0;width:100%;height:58vh" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        
+        </div>
+        
+      </div>
+     </div>
+     </div>
+  </body>
+
+</html>

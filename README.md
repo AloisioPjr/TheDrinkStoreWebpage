@@ -16,7 +16,7 @@ The most challenging part of this first week was the CSS because of the differen
 
  
 Figure 1 Products Page
- ![Products Page](\Assignment\Picture1.jpg)
+ ![Products Page](\Assignment\Picture1.jpg "products page")
   
 Figure 2 Home Page
 Week 2

@@ -1,6 +1,5 @@
 # TheDrinkStoreWebpage
 Project created for Web Development Module of BSc (Honours) in Computing year 2
-Web Application Development (BSHCIFSC2)
 Student: Aloisio Pereira Junior
 Lecturer: Sean Bonner
 Assignment CA1 – Journal

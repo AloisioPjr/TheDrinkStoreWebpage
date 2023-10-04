@@ -18,7 +18,7 @@ The most challenging part of this first week was the CSS because of the differen
 
  
 
-  ![Picture1](https://github.com/AloisioPjr/TheDrinkStoreWebpage/assets/22481231/d0489276-ebb1-4106-8e61-dc4d6ec27dcd)
+![Picture1](https://github.com/AloisioPjr/TheDrinkStoreWebpage/assets/22481231/d0489276-ebb1-4106-8e61-dc4d6ec27dcd)
   
 Figure 1 Products Page
 
@@ -35,7 +35,9 @@ An XML file was created with the purpose of holding all the information about th
 
 ![Picture3](https://github.com/AloisioPjr/TheDrinkStoreWebpage/assets/22481231/453ff1fa-28b8-40ee-a04b-decd9bc2ee12)
 
-Figure 3.  XML File
+Figure 3.  
+
+XML File
 
 The XML file starts with an element that has reference to the XML Schema file which means that all the elements inside of the element “Products” have reference to the “Products.xsd” XML Schema file.
 XML is very straightforward each product has an id as an attribute and the products have other elements that hold the element tag.

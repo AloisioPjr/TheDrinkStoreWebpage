@@ -17,10 +17,12 @@ The most challenging part of this first week was the CSS because of the differen
  
 
   ![Picture1](https://github.com/AloisioPjr/TheDrinkStoreWebpage/assets/22481231/d0489276-ebb1-4106-8e61-dc4d6ec27dcd)
+  
 Figure 1 Products Page
 
 ![Picture2](https://github.com/AloisioPjr/TheDrinkStoreWebpage/assets/22481231/2ed776c0-7499-4845-9f4d-26c0f8cec199)
 ![Picture2b](https://github.com/AloisioPjr/TheDrinkStoreWebpage/assets/22481231/e36e1efa-3141-4f77-88dd-e199290116f0)
+
 Figure 2 Home Page
 Week 2
 XML file and XML Schema 
@@ -32,6 +34,7 @@ The XML file starts with an element that has reference to the XML Schema file wh
 XML is very straightforward each product has an id as an attribute and the products have other elements that hold the element tag.
 
 ![Picture4](https://github.com/AloisioPjr/TheDrinkStoreWebpage/assets/22481231/5161ddd1-4b0d-4d51-9904-b22b9faead66)
+
 Figure 4. XML Schema File
 In this snippet of the XML Schema file, we can note that the elements “name”, “category” and “description” from the XML file are elements type string. The element “quantity” is an integer that could have a minimum value of 0. To find all that information I referred to the week 5 WAD presentation on Moodle page and exercises executed in class.
 
@@ -44,12 +47,14 @@ JavaScript
 According to the material given in class, I had the option to parse the XML file through JavaScript using the DOM parser where the file is loaded onto a variable and accessed using  DOM methods.
 
 ![Picture5](https://github.com/AloisioPjr/TheDrinkStoreWebpage/assets/22481231/0ea1c16f-f0d1-4ee0-b96d-8d05d4f59375)
+
 Figure 5 JavaScript file
 From lines 9 – 18 On the Products.js the JavaScript code “fetch function” retrieves a file from outside of the program and then passed it into another function that will assign the content from the XML to a variable so the DOM Parser can be used, and methods can be applied to access all the nodes in the XML file.
 From line 19 -30 the “forEach” loop creates a row for each node of the XML document and run a for loop to create a cell and assign the value from the child node for each column of the table.
 This code was taken from a tutorial on YouTube. (Reading XML files using JavaScript 2018)
 
 ![Picture6](https://github.com/AloisioPjr/TheDrinkStoreWebpage/assets/22481231/ad619888-4ffb-40c3-ad9c-d592f8aaa8e8)
+
 Figure 6 JavaScript File 2
 From line 37 – 60 the “searchFun()” function is activated every time a key is inserted in the search box. The function stores the user input in a variable and changes its value to uppercase. Then it assigns the products table from the HTML file to a variable called “table”. 
 A for loop will iterate through each row of the table, an if statement will check if the value in the cell exists then another if statement will change the values to upper case and compare it to the user input if it matches it displays the row else ride the row. Code was taken from W3Schools (How to - filter/search table).

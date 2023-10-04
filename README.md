@@ -17,7 +17,7 @@ The most challenging part of this first week was the CSS because of the differen
 
  
 Figure 1 Products Page
- ![Products Page]("C:\Users\Alois\OneDrive\Outlook\2 Year NCIrl\1 Web Application Development\WAD CA\Assignment\Picture1.jpg")
+ ![Products Page](\Assignment\Picture1.jpg)
   
 Figure 2 Home Page
 Week 2

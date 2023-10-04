@@ -77,9 +77,12 @@ Throughout the past few weeks, I have learned in class the basic tools that were
 Although the appearance of the website isn’t a requirement I got to play around with the appearance and the way CSS works. One interesting piece of information that I gained from this project is that if follow the steps: go to a random website > right-click anywhere on the page> “inspect element” I can see the HTML and CSS code of a page.
 
 Bibliography
+
 CSS Styling Tables [Online]. Available at: https://www.w3schools.com/Css/css_table.asp (Accessed:  October 28, 2022).
 How to - contact form [Online]. How To Create a Contact Form with CSS. Available at: https://www.w3schools.com/howto/howto_css_contact_form.asp (Accessed: November 10, 2022). 
+
 How to - filter/search table [Online] How To Create a Filter/Search Table. Available at: https://www.w3schools.com/howto/howto_js_filter_table.asp (Accessed: November 11, 2022). 
+
 NJ19878888 (2018)[Online] Reading XML files using JavaScript, YouTube. YouTube. Available at: https://www.youtube.com/watch?v=VxKGVb0oOBw (Accessed: November 01, 2022). 
 
 
